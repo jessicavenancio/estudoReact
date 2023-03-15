@@ -1,17 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// Trazer de outro arquivo/biblioteca alguma função ou variável
+import { createRoot } from "react-dom/client";
+import { App } from "./App";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// Linka o arquivo css ao projeto React
+import "./styles.css";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// Selecionando a div na página
+const rootElement = document.getElementById("root");
+
+// A div root será a base da aplicação
+const root = createRoot(rootElement);
+
+// Inserimos o conteúdo da página
+root.render(<App />);

@@ -1,0 +1,58 @@
+/* estilos serão globais */
+
+body{
+    background-color:#efefef;
+    font-family:Georgia;
+    margin: 0;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+img{
+    border-radius: 8px;
+    
+}
+
+.titulo{
+    color: crimson;
+}
+
+.paragrafo{
+    font-style: italic;
+}
+
+.mensagem{
+    background-color: whitesmoke;
+    padding: 8px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    width: 300px;
+    margin: 8px auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section-postagem{
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.footer{
+    height: 100%;
+    background-color:cadetblue;
+    color: #FFF;   
+    text-align: center;
+    justify-content: center;
+}
+
+
