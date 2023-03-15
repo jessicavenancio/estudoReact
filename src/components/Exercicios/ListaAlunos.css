@@ -2,8 +2,8 @@
     font-family: Sans-serif;
 }
 
-.cardCompra{
-    border: 1px solid black;
+.card-listaAlunos{
+    /* border: 1px solid green; */
     border-radius: 8px;
     padding: 8px;
     margin: 8px 0;
