@@ -9,6 +9,9 @@ import { Contador } from "./components/Contador/Contador";
 import { ContadorExercicio } from "./components/Contador/ContadorExcercicio";
 import { Cadastro } from "./components/Cadastro/Cadastro";
 import { Desafio } from "./components/Desafio/Desafio";
+import { Sorteador } from "./components/Exercicios/Sextou/Sorteador";
+import { Abas } from "./components/Abas/Abas";
+import { Quiz } from "./components/Quiz/Quiz";
 
 
 
@@ -24,14 +27,14 @@ export function App (){
         <Numeros numero={4}/> */}
         {/* <ProductList/> */}
         {/* <Quadrado/> */}
-
         {/* <Contador/> */}
-
         {/* <ContadorExercicio/> */}
-
         {/* <Cadastro/> */}
+        {/* <Desafio/> */}
+        {/* <Sorteador/>*/}
+        {/* <Abas/> */}
 
-        <Desafio/>
+        <Quiz/>
     </>
     );
 };
