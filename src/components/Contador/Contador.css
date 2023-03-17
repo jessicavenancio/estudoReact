@@ -1,0 +1,59 @@
+/* .contador{
+    width: 280px;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(#0797bb, #0860b8);
+    display: inline-block;
+    border-radius: 7px;
+    color: beige;
+}
+
+
+.contador button{
+    width: 60px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    background-color: crimson;
+    font-weight: bold;
+    border-radius: 7px;
+    color: beige;
+} */
+
+
+.contador {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.contador {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.contador button{
+    width: 100px;
+    background: #e99c0d;
+    gap: 20px;
+    padding: 20px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 8px;
+}
+
+.contador button:hover{
+    transform: scale(1.2);
+}
+

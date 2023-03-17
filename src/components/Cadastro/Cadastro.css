@@ -1,0 +1,24 @@
+.cadastro{
+    width: 280px;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(#3E4243, #18191A);
+    display: inline-block;
+    color: antiquewhite;
+    border-radius: 7px;
+}
+
+h2{
+    margin: 0;
+}
+
+.cadastro input,
+.cadastro textarea
+{
+    margin: 3px;
+    border-radius: 7px;
+}
+
+.cadastro strong{
+    margin: 2px;
+}
