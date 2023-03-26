@@ -8,10 +8,12 @@ import { Quadrado } from "./components/Quadrado/Quadrado";
 import { Contador } from "./components/Contador/Contador";
 import { ContadorExercicio } from "./components/Contador/ContadorExcercicio";
 import { Cadastro } from "./components/Cadastro/Cadastro";
-import { Desafio } from "./components/Desafio/Desafio";
 import { Sorteador } from "./components/Exercicios/Sextou/Sorteador";
 import { Abas } from "./components/Abas/Abas";
 import { Quiz } from "./components/Quiz/Quiz";
+import { ConversorTemp } from "./components/Efeitos/ConvertTemperatura/ConversorTemp";
+import { ConvertDist } from "./components/Efeitos/ConverteDistancia/ConvertDist";
+import { Dicionario } from "./components/Efeitos/Dicionario/Dicionario";
 
 
 
@@ -33,8 +35,13 @@ export function App (){
         {/* <Desafio/> */}
         {/* <Sorteador/>*/}
         {/* <Abas/> */}
+        {/* <Quiz/> */}
 
-        <Quiz/>
+        {/* <ConversorTemp/> */}
+
+        {/* <ConvertDist/> */}
+
+        <Dicionario/>
     </>
     );
 };

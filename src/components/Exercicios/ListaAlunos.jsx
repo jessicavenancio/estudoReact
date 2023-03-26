@@ -28,7 +28,6 @@ export function ListaAlunos()
         border = "2px solid red";
         media = <p><b>Pior que tá não fica.</b></p>
     }
-
     const objectStyle = { border };
 
         return <div key={index} className="card-listaAlunos" style={objectStyle}>

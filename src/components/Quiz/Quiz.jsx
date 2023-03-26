@@ -54,7 +54,7 @@ export function Quiz(){
         return(
         <div>
             <h1>Parabéns você acertou!</h1>
-        </div>
+        </div> 
         )
     }else if(tela === "acabou"){
         return(
